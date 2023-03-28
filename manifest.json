@@ -1,0 +1,16 @@
+{
+  "name": "LinkExia",
+  "short_name": "LinkExia",
+  "start_url": "web_pages/home.php",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "image/icons/8858_512x512_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+    
+  ]
+}

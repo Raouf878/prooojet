@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: 'poppins-bold900', sans-serif;
+    font-weight: 600;
+}
+
+.hero-area{
+  padding-top: 200px;
+  padding-bottom: 150px;
+  position: relative;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  background: url(../image/80910.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+
+.search-form {
+  width: 100%;
+  position: relative;
+}
+
+.search-form input{
+    width: 100%;
+    padding:0 30px;
+    border-radius: 50px;
+    border: solid 1px;
+    font-weight: 600;
+    border-color: #3A54AA;
+    height: 70px;
+}
+
+.search-form button{
+  position: absolute;
+  right: 6px;
+  height: 60px;
+  border: none;
+  color: #fff;
+  background-color: #3A54AA;
+  top: 5px;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.search-form button:hover{
+  background: #3d60d3;
+}
+
+.hero-caption h2{
+  font-size: 42px;
+  font-weight: 700;
+  color: #e8e8e8;
+  margin-bottom: 30px;
+}
+
+.nav-item:hover .nav-link {
+    color: #3A54AA;
+     
+  }
+
+  .btn-outline-primary{
+    width: 120px;
+    height: 50px;
+    font-size: 25px;
+    color: #3A54AA;
+    border-color: #3A54AA;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  .btn-outline-primary:hover {
+    background-color: #3A54AA;
+    border-color: #3A54AA;
+    color: white;
+  }
+  .dropdown-menu a {
+    font-weight: 600;
+    
+  }
+  .dropdown-menu a:hover{
+    color: #3A54AA;
+  }
+
+
+.biga{
+  width: 100%;
+  background-color: #3A54AA;
+  height: 540px;
+}
+
+.filter-card{
+  background-color: #f9f9f9;
+  
+  border-radius: 0px;
+  height: 100%;
+}
+
+.team .member{
+  position: relative;
+  padding: 10px;
+  box-shadow: 0px 2px 15px rgba(0,0,0,0,1);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.team .member .photo{
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.team .member .photo .img-fluid{
+
+  width: 180px;
+
+}
+
+.team .member h4{
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #3A54AA;
+}
+
+.team .member span{
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.team .member span::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #3A54AA;
+  bottom: 0;
+  left: 0;
+}
+
+.team .member p{
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+
+
+section{
+  padding-bottom: 10px;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.cartes{
+  width: 500px; 
+  height: 170px; 
+  margin-bottom: 30px;
+}
+
+
+
+
+.team{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap:wrap;
+  height: 100%;
+}
+
+.hna{
+  margin-left: 50px;
+
+}
+
+
+.text{
+  font-size: 25px;
+  color: #666;
+  font-weight: 500;
+}
+
+
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 210px;
+  padding-top: 120px;
+  position: absolute;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 25px;
+  color: grey;
+ 
+  
+}
+
+.rating input:checked ~ label {
+  color: orange;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+  color: orange;
+}
+
+.fa {
+  font-size: inherit;
+}
+
+
+@media only screen and (max-width: 500px){
+  .hna{
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+  .cartes{
+    width: 100%;
+  }
+  .rating label {
+    font-size: 20px;
+  }
+  .rating {
+    margin-left: 180px;
+    padding-top: 150px;
+  }
+ 
+}
+
+@media only screen and (max-width: 300px){
+  .cartes{
+    width: 300px;
+  }
+  .rating label {
+    font-size: 15px;
+  }
+  .rating {
+    margin-left: 180px;
+    padding-top: 140px;
+
+  }
+  .search-form button{
+    width: 60px;
+  }
+}
+
+

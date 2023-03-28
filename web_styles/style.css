@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+.moo{
+  background-color: #E3E3E3;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/*------------------Login Coàntainer---------------------- */
+
+.box{
+  width: 1000px;
+  height: 700px;
+}
+
+.kahloch2{
+  border-radius: 20px;
+}
+
+/*------------------Left---------------------- */
+
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #3A54AA;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 100%;
+}
+
+
+
+
+.vid img{
+  border-radius: 20px;
+}
+
+.desc1{
+  font-weight: 600;
+}
+.desc2{
+  width: 17rem;
+}
+
+/*------------ Right box ------------*/
+
+.right{
+  padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+  font-size: 16px;
+}
+
+  
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px){
+
+   .box{
+      margin: 0 10px;
+
+   }
+   .left{
+      height: 100px;
+      overflow: hidden;
+   }
+   .right{
+      padding: 20px;
+   }
+   .left{
+    display: none;
+   }
+
+}
